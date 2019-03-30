@@ -1,37 +1,25 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
-import { About } from './components/about/About.tsx';
-import { Home } from  './components/home/Home.tsx';
-import { Contact } from './components/contact/Contact.tsx';
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
+// import { About } from './components/about/About.jsx';
+// import { Home } from  './components/home/Home.jsx';
+// import { Contact } from './components/contact/Contact.jsx';
+import  { Header } from './components/header/Header.jsx';
+import  { Footer } from './components/footer/Footer.jsx';
+import  { Main } from './components/main/Main.jsx';
  
-import logo from './logo.svg';
+
 import './App.scss';
 
 export class App extends Component {
   render() {
     return (
       <Router>
-      <div className="App">
-        <header className="App-header">
-        <div>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
-          </ul>
-          <Route exact path="/" component={ Home } />
-          <Route path="/about" component={ About } />
-          <Route path="/contact" component={ Contact } />
+        <div className="App">
+          <Header/>
+          <Main/>
+          <Footer/>
         </div>
-          </header>
-        </div>
-      </Router>
+        </Router>
     );
   }
 }

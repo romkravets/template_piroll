@@ -1,0 +1,52 @@
+.about-us {
+   padding-top: 2rem;
+   &__title {
+   }
+   &__image-box {
+      text-align: center;
+      padding: 3rem;
+   }
+}
+
+.about-us-skills {
+   background-image: url(../../assets/image/skill.jpeg);
+   position: relative;
+   background-repeat: repeat;
+   background-size: cover;
+   height: 570px;
+   padding-top: 6rem;
+   padding-bottom: 4rem;
+   &:after{
+      content: ''; 
+      width: 100%; 
+      height: 100%; 
+      background-color: rgb(255, 255, 255); 
+      opacity: 0.7; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      z-index: 0;
+   }
+   &__position {
+      z-index: 1;
+   }
+   &__text {
+      z-index: 1;
+      text-transform: uppercase;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+   }
+   &__container {
+      width: 100%;
+      background-color: #ddd;
+   }
+   &__skills {
+      text-align: right;
+      padding: 2px;
+      color: white;
+    }
+}
+ 
+ .html {width: 75%; background-color: #10C9C3;}
+ .css {width: 90%; background-color: #10C9C3;}
+ .js {width: 65%; background-color: #10C9C3;}
