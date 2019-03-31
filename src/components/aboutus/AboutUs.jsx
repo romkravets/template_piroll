@@ -26,18 +26,18 @@ export class AboutUs extends React.Component {
                   <div className="row">
                      <div className="col-6 about-us-skills__position">
                      <div className="about-us-skills__description">
-                     <h3>Professional Skills</h3>
-                        <p class="about-us-skills__text">UI/UX Design<span>75%</span></p>
+                     <h3 class="about-us-skills__title">Professional Skills</h3>
+                        <p class="about-us-skills__text">UI/UX Design<span class="about-us-skills__text_span">75%</span></p>
                         <div class="about-us-skills__container">
                         <div class="about-us-skills__skills html"></div>
                         </div>
 
-                        <p class="about-us-skills__text">web development<span>90%</span></p>
+                        <p class="about-us-skills__text">web development<span class="about-us-skills__text_span">90%</span></p>
                         <div class="about-us-skills__container">
                         <div class="about-us-skills__skills css"></div>
                         </div>
 
-                        <p class="about-us-skills__text">marketing<span>65%</span></p>
+                        <p class="about-us-skills__text">marketing<span class="about-us-skills__text_span">65%</span></p>
                         <div class="about-us-skills__container">
                         <div class="about-us-skills__skills js"></div>
                         </div>

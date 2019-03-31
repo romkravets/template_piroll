@@ -1,0 +1,27 @@
+.button {
+   border-radius: 4px;
+   padding: 20px 47px;
+   background-color: rgb(16, 201, 195);
+   color: rgb(255, 255, 255);
+   font-size: 1rem;
+   text-transform: uppercase;
+   font-weight: 500;
+   letter-spacing: 2px;
+   text-align: center;
+   cursor: pointer;
+   white-space: nowrap;
+   border: none;
+   &:hover {
+      box-shadow: 0 0 10px 0 rgba(30, 136, 245, 0.9);
+      transition: 0.5s all;
+   }
+}
+
+.button:active,
+.button:focus,
+.button.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+}

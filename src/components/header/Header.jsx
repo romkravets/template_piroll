@@ -14,12 +14,12 @@ export class Header extends React.Component {
            <nav className='global-nav'>
               <div className="container">
                   <div className="row">
-                     <div className="col-4 align-content-center">
+                     <div className="col-1 align-content-center">
                      <a className="" href="#">
                         <img className="logo" src={logo} alt="logo"/>
                      </a>
                      </div>
-                     <div className="col-4 offset-1">
+                     <div className="col-7 offset-4">
                            <ul className="global-nav__items">
                               <li className="global-nav__item">
                                  <Link className="global-nav__link" to="/">Home</Link>

@@ -1,0 +1,23 @@
+.projects {
+   background-color: rgb(16, 201, 195);
+   color: #ffffff;
+   font-weight: 500;
+   height: 230px;
+   &__items {
+      padding-top: 64px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &_image {
+         padding-bottom: 18px;
+      }
+   }
+   &__description {
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0;
+      padding-left: 0.7rem;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+   }
+}
