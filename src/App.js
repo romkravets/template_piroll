@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { About } from './components/about/About.jsx';
 // import { Home } from  './components/home/Home.jsx';
 // import { Contact } from './components/contact/Contact.jsx';

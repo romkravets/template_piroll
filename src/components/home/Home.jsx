@@ -3,7 +3,9 @@ import * as React from 'react';
 import { Button } from '../button/Button.jsx';
 import { AboutUs } from '../aboutus/AboutUs.jsx';
 import { Projects } from '../projects/Projects.jsx';
-
+import { Gallery } from '../gallery/Gallery.jsx';
+import { Work } from '../work/Work.jsx';
+import { DirectionWork } from '../directionWork/DirectionWork.jsx';
 
 
 import './Home.scss';
@@ -29,6 +31,9 @@ export class Home extends React.Component {
          </header>
          <AboutUs />
          <Projects />
+         <Gallery />
+         <Work />
+         <DirectionWork />
          </div>
          
          

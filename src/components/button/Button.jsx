@@ -4,7 +4,7 @@ import './Button.scss';
 export class Button extends React.Component {
    render() {
       return (
-            <button className="button">Contact us</button>
+            <button className=" button button_main">Contact us</button>
       );
    }
 }

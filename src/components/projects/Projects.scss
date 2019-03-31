@@ -2,15 +2,23 @@
    background-color: rgb(16, 201, 195);
    color: #ffffff;
    font-weight: 500;
-   height: 230px;
+   // height: 200px;
    &__items {
-      padding-top: 64px;
+      padding: 50px 0;
+      padding-left: 30px;
       display: flex;
       flex-direction: row;
       align-items: center;
+      // &:last-child {
+      //    padding-left: 0;
+      // }
       &_image {
          padding-bottom: 18px;
       }
+   }
+   &__image {
+      width: 45px;
+      height: 45px;;
    }
    &__description {
       display: flex;

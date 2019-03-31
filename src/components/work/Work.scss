@@ -1,0 +1,27 @@
+.work {
+   padding-bottom: 5rem;
+   &__description {
+      padding-bottom: 2rem;
+   }
+   &__player {
+      width: 100%;
+   }
+   &__play {
+      background-color:#1111;
+   }
+
+}
+
+.video-react .video-react-big-play-button {
+   font-size: 5em;
+   width: 3em;
+   height: 3em;
+   border-radius: 2em;
+   line-height: 2.8em;
+   background-color: rgb(16, 201, 195);
+   border: 0.05555em solid #fff;
+}
+
+.video-react .video-react-poster {
+   background-size: cover;
+}

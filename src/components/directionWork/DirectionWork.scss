@@ -1,0 +1,29 @@
+.direction-work {
+   position: relative;
+   padding: 5rem 0;
+   background-color: #F5F5F5;
+   color: rgb(32, 32, 32);
+   &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   &__icon {
+      text-align: center;
+      display: block;
+      width: 60px;
+      height: 60px;
+   }
+   &__title {
+      font-weight: 600;
+      padding-top: 1.3rem;
+      padding-bottom: 0.5rem;
+   }
+   &__description {
+      color: #8A8A8A;
+      font-weight: 500;
+   }
+   &__padding-row {
+      padding-top: 4rem;
+   }
+}

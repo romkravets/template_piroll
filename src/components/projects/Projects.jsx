@@ -15,7 +15,7 @@ export class Projects extends React.Component {
                      <div className="col-3">
                         <div className="projects__items">
                            <div className="projects__items_image">
-                                 <img src={projectsicon} alt=""/>
+                                 <img className="projects__image" src={projectsicon} alt=""/>
                            </div>
                         <div className="projects__description">
                               <span>548</span>
@@ -26,7 +26,7 @@ export class Projects extends React.Component {
                      <div className="col-3">
                         <div className="projects__items">
                            <div className="projects__items_image">
-                                 <img src={timeicon} alt=""/>
+                                 <img className="projects__image" src={timeicon} alt=""/>
                            </div>
                         <div className="projects__description">
                               <span>1465</span>
@@ -37,7 +37,7 @@ export class Projects extends React.Component {
                      <div className="col-3">
                         <div className="projects__items">
                            <div className="projects__items_image">
-                                 <img src={staricon} alt=""/>
+                                 <img className="projects__image" src={staricon} alt=""/>
                            </div>
                         <div className="projects__description">
                               <span>612</span>
@@ -48,7 +48,7 @@ export class Projects extends React.Component {
                      <div className="col-3">
                         <div className="projects__items">
                            <div className="projects__items_image">
-                                 <img src={harticon} alt=""/>
+                                 <img className="projects__image" src={harticon} alt=""/>
                            </div>
                         <div className="projects__description">
                               <span>548</span>
