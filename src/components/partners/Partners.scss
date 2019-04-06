@@ -1,0 +1,14 @@
+.partner-box {
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   align-items: center;
+   background-color: #FFFFFF;
+   width: 100%;
+   height: 20vh;
+   &__image {
+      width: 50%;
+      height: 50%;
+   }
+}

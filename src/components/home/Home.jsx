@@ -6,11 +6,14 @@ import { Projects } from '../projects/Projects.jsx';
 import { Gallery } from '../gallery/Gallery.jsx';
 import { Work } from '../work/Work.jsx';
 import { DirectionWork } from '../directionWork/DirectionWork.jsx';
-
+import { Slider } from '../slider/Slider.jsx';
+import { Partners } from '../partners/Partners.jsx';
 
 import './Home.scss';
 
+
 export class Home extends React.Component {
+   
    render() {
       return (
          <div className="container-fluid">
@@ -20,8 +23,8 @@ export class Home extends React.Component {
                <div className="col-6 offset-6">
                <div className="header-content__description">
                   <h1 className="header-content__title">We Design and Develop</h1>
-                  <p className="header-content__text">We are a new design studio based in USA. We have over 
-                     20 years of combined experience, and know a thing or two 
+                  <p className="header-content__text">We are a new design studio based in USA. We have over
+                     20 years of combined experience, and know a thing or two
                      about designing websites and mobile apps.</p>
                      <Button />
                </div>
@@ -34,9 +37,9 @@ export class Home extends React.Component {
          <Gallery />
          <Work />
          <DirectionWork />
+         <Slider />
+         <Partners/>
          </div>
-         
-         
       );
    }
 }
