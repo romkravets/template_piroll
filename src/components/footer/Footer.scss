@@ -3,4 +3,38 @@
    width: 100%;
    background-color: rgb(20, 20, 20);
    height: 200px;
+   color: #fff;
+   &__box {
+      padding-top: 2rem;
+      font-size: 0.8rem;
+      text-align: left;
+   }
+   &__title {
+   }
+   &__designer {
+      font-size: 0.8rem;
+      margin-top: 1rem;
+   }
+   &__email {
+      margin-bottom: 2rem;
+      color: #C3A9A9;
+      font-size: 0.7rem;
+      font-weight: 500;
+      &:hover {
+         text-decoration: none;
+         color: #fff;
+      }
+   }
+   &__phone {
+      margin-top: 1rem;
+   }
+   &__link {
+      color: #C3A9A9;
+      font-size: 0.7rem;
+      font-weight: 500;
+      &:hover {
+         text-decoration: none;
+         color: #fff;
+      }
+   }
 }
