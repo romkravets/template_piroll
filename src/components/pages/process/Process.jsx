@@ -1,14 +1,14 @@
 import * as React from 'react';
-import './About.scss';
+import './Process.scss';
 
-export class About extends React.Component {
+export class Process extends React.Component {
    render() {
       return (
          <div className="container">
-         <div className="about">
+         <div className="process">
            <div className="row">
               <div className="col-12">
-              <h2 className="about__title" >About</h2>
+              <h2 className="process__title" >Process</h2>
               </div>
            </div>
         </div>
