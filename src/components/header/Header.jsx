@@ -34,7 +34,7 @@ export class Header extends React.Component {
                                  <Link  className="global-nav__link" to="/process">Process</Link>
                               </li>
                               <li className="global-nav__item">
-                                 <Link className="global-nav__link" to="/testimons">Testimonials</Link>
+                                 <Link className="global-nav__link" to="/testimonials">Testimonials</Link>
                               </li>
                               <li className="global-nav__item">
                                  <Link className="global-nav__link" to="/contact">Contact</Link>
